@@ -1,13 +1,11 @@
 <template>
-  <div class="bg-customCream">This is my main Header Component</div>
+<!--  <div class="bg-customCream">This is my main Header Component</div>-->
+  <div class="MainHeader container mx-auto md:bg-contain bg-no-repeat bg-center"
+       :style="`background-image: url(${grande1}); height:100vh;`">
+  </div>
 </template>
 
-<script>
-export default {
-  name: "MainHeader"
-}
+<script setup>
+import grande1 from '../assets/grande1horizontal.jpg';
 </script>
 
-<style scoped>
-
-</style>

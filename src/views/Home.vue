@@ -2,7 +2,7 @@
   <div>
       <Nav></Nav>
 
-    <MainHeader></MainHeader>
+    <MainHeader> </MainHeader>
 <!--    <Presentation oriented="left"></Presentation>-->
 <!--    <Presentation  oriented="right"></Presentation>-->
 <!--    <Stats></Stats>-->
