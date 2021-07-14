@@ -1,14 +1,18 @@
 <template>
-  <div>This is my Presentation Component <span class="font-bold">(resusable)</span></div>
-
+  {{ content }}
 </template>
 
 <script>
-export default {
-  name: "Presentation.vue"
-}
+  export default {
+    props: {
+      content:{
+        default: () => {},
+        type: Object
+      }
+    },
+    setup(props){
+      console.log(props.content)
+    }
+  }
 </script>
 
-<style scoped>
-
-</style>
