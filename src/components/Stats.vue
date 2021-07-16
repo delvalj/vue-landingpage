@@ -14,3 +14,4 @@ import StatsCard from './elements/stats/StatsCard.vue';
 import grande3horizontal from '../assets/grande2.jpg';
 </script>
 
+aaa
