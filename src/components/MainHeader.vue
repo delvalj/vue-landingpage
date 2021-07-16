@@ -1,5 +1,4 @@
 <template>
-<!--  <div class="bg-customCream">This is my main Header Component</div>-->
   <div class="MainHeader container mx-auto bg-cover bg-no-repeat md:bg-center"
        :style="`background-image: url(${grande1}); height:100vh;`">
   </div>
