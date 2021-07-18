@@ -1,15 +1,15 @@
 <template>
-  <div>This is my StatsCard Component</div>
+  <div class="Stats-Card">
+      {{ content }}
+  </div>
 </template>
 
 <script>
+import GeneralMixin from "../../../mixins/GeneralMixin";
+
 export default {
-  props: {
-    content: {
-      default: () => {},
-      type: Object
-    }
-  },
+  mixins: [GeneralMixin],
+
 }
 </script>
 
