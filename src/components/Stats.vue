@@ -1,9 +1,9 @@
 <template>
-  <div class="Stats bg-cover bg-no-repeat bg-bottom bg-center relative"
-       :style="`background-image:url(${grande3horizontal}); height:450px;`">
-    <div class="w-full h-full bg-customCream opacity-50 absolute z-0"></div>
-    <div class="Stats-Components z-50 relative">
-      <p class="text-white">{{ cards }}</p>
+  <div class="Stats bg-cover bg-no-repeat bg-bottom bg-center relative pt-24 mb-48"
+       :style="`background-image:url(${grande3horizontal}); height:300px; background-position:
+        center bottom: -6rem` ">
+    <div class="w-full h-full bg-customCream opacity-50 absolute top-0 left-0 z-0"></div>
+    <div class="Stats-Components container mx-auto flex items-center justify-between w-full z-50 relative">
       <Stats-Card v-for="obj, objIndex in cards" :key="objIndex" :content="obj" ></Stats-Card>
     </div>
   </div>
@@ -32,7 +32,7 @@ export default {
       cards: [{
         imgSrc: cuadrado1,
         title: "acumulador",
-        description: "algo algo lago "
+        description: "Precio : 250 , <br> Calidad: Alta"
       }, {
         imgSrc: cuadrado2,
         title: "bombilla",
