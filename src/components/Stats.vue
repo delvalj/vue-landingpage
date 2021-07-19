@@ -1,9 +1,9 @@
 <template>
-  <div class="Stats bg-cover bg-no-repeat bg-bottom bg-center relative pt-24 mb-48"
-       :style="`background-image:url(${grande3horizontal}); height:300px; background-position:
+  <div class="Stats bg-cover bg-no-repeat bg-bottom bg-center relative sm:py-8  xl:pt-32 lg:pt-32 mb-48"
+       :style="`background-image:url(${grande3horizontal});min-height:300px; background-position:
         center bottom: -6rem` ">
-    <div class="w-full h-full bg-customCream opacity-50 absolute top-0 left-0 z-0"></div>
-    <div class="Stats-Components container mx-auto flex items-center justify-between w-full z-50 relative">
+    <div class="w-full h-full bg-customCream opacity-50 absolute top-0 left-0 z-0no"></div>
+    <div class="Stats-Components container flex flex-col lg:flex-row items-center justify-between w-full z-50 relative lg:absolute px-8 ">
       <Stats-Card v-for="obj, objIndex in cards" :key="objIndex" :content="obj" ></Stats-Card>
     </div>
   </div>
