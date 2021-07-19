@@ -27,7 +27,7 @@ export default {
   },
   //agrego informacion que va a ser loopeada por el v-for arriba.. los cuadrados del medio
   setup() {
-    const data = reactive ({
+      const data = reactive ({
       grande3horizontal,
       cards: [{
         imgSrc: cuadrado1,
