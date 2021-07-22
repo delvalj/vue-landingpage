@@ -22,5 +22,7 @@ export default {
   min-height: 300px;
   max-height: 300px;
 
+  border-radius:50px ;
+
 }
 </style>

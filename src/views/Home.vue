@@ -30,7 +30,7 @@ export default {
       presentations: [{
           left: false,
         columns: [{
-            backgroundColor: "customCream",
+          backgroundColor: "customCream",
           title: 'Visita Argentina',
           subtitle: 'Un pais con buena gente',
           description: 'La Argentina tiene muchas particularidades que han recorrido el mundo en boca de sus visitantes.' +
