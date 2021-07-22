@@ -4,7 +4,7 @@ import Stats from "./Stats.vue";
 import Presentation from "./Presentation.vue";
 import Footer from "./Footer.vue";
 import Tabs from "./Tabs.vue";
-import StatsCard from './elements/stats/StatsCard.vue';
+// import StatsCard from './elements/stats/StatsCard.vue';
 
 export {
     MainHeader,
@@ -12,6 +12,6 @@ export {
     Presentation,
     Tabs,
     Stats,
-    StatsCard,
+    // StatsCard,
     Footer
 }
