@@ -6,7 +6,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors:{
-      customCream: '#ffd7ba',
+      customCream: '#a7bed3',
       ...colors
     },
     fontFamily: {

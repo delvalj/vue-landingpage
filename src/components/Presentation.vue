@@ -1,15 +1,15 @@
 <template>
   <!--  El mayor cambio aca es que pasamos de md:flex-row a lg: para qeu se vea mucho mejor-->
-  <div class="Presentation lg:flex flex-col lg:flex-row bg-customCream m-4 opacity-" :class="{ 'lg:flex-row-reverse': content.left}"
-       style="border-radius: 50px">
+  <div class="Presentation lg:flex flex-col lg:flex-row bg-customCream m-8 p-8" :class="{ 'lg:flex-row-reverse': content.left}"
+       style="border:1px solid grey; border-radius: 50px">
 
     <!--La clase que le estoy bindeando se lee: cuando el content este del lado izquierdo aplicar la clase
     FLEX ROW REVERSE que esuna funcionalidad de flex -->
 
-    <div v-for="col, colIndex in content.columns" :key="colIndex" class="flex-1 m-4" style="border-radius: 50px">
+    <div v-for="col, colIndex in content.columns" :key="colIndex" class="flex-1 m-4" style="border-radius:50px">
 
       <div v-if="col.imgSrc">
-        <img :src="col.imgSrc" alt="image" style="border-radius: 50px">
+        <img :src="col.imgSrc" alt="image" style="border: 1px solid grey; border-radius:50px">
       </div>
 
 <!-- // VISIT ARGENTINA TEXTO // -->
@@ -26,8 +26,6 @@
       </div>
 
     </div>
-
-
   </div>
 </template>
 
