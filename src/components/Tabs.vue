@@ -6,7 +6,8 @@
         {{ obj.title }}
       </div>
     </header>
-    <div class="container mx-auto bg-contain bg-no-repeat flex items-center justify-center" :style="`border-radius: 100px; background-image:url(${getActiveTabContent.imgSrc}); min-height: 600px;`">
+    <div class="container mx-auto bg-cover bg-no-repeat flex items-center justify-center mb-4" :style="`border-radius: 50px; background-image:url(${getActiveTabContent.imgSrc});min-height:450px;
+     background-position: ;`">
       <p> {{ getActiveTabContent }} </p>
         <div class="mb-16">
           <h2 class="text-2xl uppercase font-bold mb-4 "> {{ getActiveTabContent.title }}</h2>
@@ -19,7 +20,7 @@
 
 <script>
 import {reactive, toRefs, computed} from 'vue'
-import landscape1 from '../assets/landscape1.jpg'
+import landscape1 from '../assets/jujuy.jpg'
 
 export default {
   setup() {
