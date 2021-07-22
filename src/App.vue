@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-      <Home />
+      <Home class="animate__animated  animate__fadeIn" />
   </div>
 </template>
 
