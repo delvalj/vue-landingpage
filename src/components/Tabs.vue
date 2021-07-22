@@ -8,10 +8,9 @@
     </header>
     <div class="container mx-auto bg-cover bg-no-repeat flex items-center justify-center mb-4" :style="`border-radius: 50px; background-image:url(${getActiveTabContent.imgSrc});min-height:450px;
      background-position: ;`">
-      <p> {{ getActiveTabContent }} </p>
         <div class="mb-16">
-          <h2 class="text-2xl uppercase font-bold mb-4 "> {{ getActiveTabContent.title }}</h2>
-          <p> {{getActiveTabContent.description}}</p>
+          <h2 class="text-4xl text-center uppercase font-bold f mb-4"> {{ getActiveTabContent.title }}</h2>
+          <p class="text-xl px-28 py-8"> {{getActiveTabContent.description}}</p>
           <div class="h-1 w-16"></div>
         </div>
     </div>
