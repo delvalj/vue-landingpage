@@ -1,6 +1,6 @@
 <template>
-  <div class="MainHeader container mx-auto bg-cover bg-no-repeat md:bg-center"
-       :style="`background-image: url(${grande1}); height:100vh;`">
+  <div class="MainHeader container mx-auto bg-cover bg-no-repeat md:bg-center mb-8"
+       :style="`background-image: url(${grande1});border-radius:50px ; height:500px;`">
   </div>
 </template>
 
